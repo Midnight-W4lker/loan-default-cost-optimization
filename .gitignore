@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.py[cod]
+.venv/
+catboost_info/
+.chrome*/
+data/*.csv
+data/*.txt
+data/*.zip
+!data/README.md

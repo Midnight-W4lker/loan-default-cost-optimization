@@ -1,0 +1,47 @@
+{
+  "rows": 307511,
+  "target_rate": 0.08072881945686496,
+  "costs": {
+    "false_negative": 10,
+    "false_positive": 1
+  },
+  "selected_model": "CatBoost",
+  "results": {
+    "Logistic Regression": {
+      "validation": {
+        "roc_auc": 0.7458043544138968,
+        "average_precision": 0.22331458371206406,
+        "f1": 0.262515943877551,
+        "threshold": 0.51,
+        "false_negatives": 1672,
+        "false_positives": 16830
+      },
+      "test": {
+        "roc_auc": 0.7531753153962488,
+        "average_precision": 0.22812924916774624,
+        "f1": 0.26657066282651304,
+        "threshold": 0.51,
+        "false_negatives": 1633,
+        "false_positives": 16702
+      }
+    },
+    "CatBoost": {
+      "validation": {
+        "roc_auc": 0.7591752024149234,
+        "average_precision": 0.24406559367981914,
+        "f1": 0.2699471329808865,
+        "threshold": 0.49,
+        "false_negatives": 1646,
+        "false_positives": 16306
+      },
+      "test": {
+        "roc_auc": 0.76363888904029,
+        "average_precision": 0.2510628961405904,
+        "f1": 0.27384123601491744,
+        "threshold": 0.49,
+        "false_negatives": 1624,
+        "false_positives": 16095
+      }
+    }
+  }
+}
